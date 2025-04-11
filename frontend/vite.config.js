@@ -1,8 +1,6 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-
-// https://vitejs.dev/config/
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 export default defineConfig({
-  base: "/react-crypto-app/",
+  base: "/react-crypto-app/", // путь к подкаталогу GitHub Pages
   plugins: [react()],
-})
+});

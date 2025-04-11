@@ -3,22 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "homepage": "https://devezh95.github.io/react-crypto-app",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d frontend/dist"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chart.js": "^4.4.8",
     "express": "^5.1.0",
-    "react-scripts": "^5.0.1"
-  },
-  "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "react-chartjs-2": "^5.3.0"
   }
 }

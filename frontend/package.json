@@ -1,29 +1,29 @@
-
 {
-  "name": "react-crypto-app",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "crypto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "homepage": "https://devezh95.github.io/react-crypto-app",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "antd": "^5.22.7",
-    "react": "^18.2.0",
+    "antd": "^5.24.6",
+    "chart.js": "^4.4.8",
+    "express": "^5.1.0",
     "react-chartjs-2": "^5.3.0",
-    "react-dom": "^18.2.0"
+    "vite": "^6.2.6"
   },
   "devDependencies": {
-    "@types/react": "^18.2.43",
-    "@types/react-dom": "^18.2.17",
-    "@vitejs/plugin-react": "^4.2.1",
-    "eslint": "^8.55.0",
-    "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.5",
-    "vite": "^5.0.8"
+    "gh-pages": "^6.3.0"
   }
 }
